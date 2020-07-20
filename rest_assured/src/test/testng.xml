@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "getBookItem测试用例">
+    <test name = "图书信息正常请求返回校验">
+        <classes>
+            <class name = "com.migu.cases.getBookItem"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.migu.util.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
